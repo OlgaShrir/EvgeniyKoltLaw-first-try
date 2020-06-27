@@ -11,7 +11,9 @@
     <div class="contacts">
       <a href="#contact" class="nav-item">
         <span>054-7504999 </span>
-        <i class="fas fa-phone"></i></a>
+        <i class="fas fa-phone"></i>
+      </a>
+      <div class="name">Адвокат Евгений Колт</div>
     </div>
   </nav>
 
@@ -35,7 +37,8 @@ export default {
 <style scoped lang="scss">
 @import "../assets/style/basic-style.scss";
 .main-header{
-  height: 100px;
+  // height: 100px;
+  padding: 30px 60px;
   background-color: $color1;
   position: sticky;
   top: 0;
@@ -59,8 +62,8 @@ li{
 
 .nav-item{
   text-decoration: none;
-  font-size: 22px;
-  letter-spacing: 2px;
+  // font-size: 22px;
+  // letter-spacing: 2px;
   color: $color2;
 }
 
@@ -70,8 +73,8 @@ li{
 }
 
 .contacts{
-  font-size: 22px;
-  letter-spacing: 2px;
+  // font-size: 22px;
+  // letter-spacing: 2px;
 }
 
 

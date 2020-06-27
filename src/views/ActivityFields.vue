@@ -1,7 +1,7 @@
 <template>
  <div class="fields-container">
-
-    <h1>Юридические услуги</h1>
+    <div class="component">
+      <h1>Юридические услуги</h1>
 
     <div class="fields inline-grid">
       <div class="debt-law">
@@ -48,6 +48,8 @@
         <p>Составление длительной доверенности с особыми инструкциями относительно различных обстоятельств</p>
       </div>
     </div>
+    </div>
+    
    
  </div>
 </template>
@@ -63,16 +65,16 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/style/basic-style.scss";
-.fields-container{
-  // padding: 150px 0;
-  // background-color: $background-color4;
+.component{
+  margin-bottom: 150px;
 }
-h2{
-  display: inline;
+h1{
+  text-align: center;
+  margin-bottom: 50px;
 }
 .fields{
   grid-template-columns: 1fr 1fr;
-  column-gap: 20px;
+  grid-gap: 20px;
   width: 100%;
 }
  

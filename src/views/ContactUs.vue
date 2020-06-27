@@ -27,14 +27,14 @@ export default {
 .footer{
   background-color: $color1;
   color: white;
-  
+  page-break-after: 100px;
 }
 .contacts{
   width: 1100px;
   margin: auto;
-  padding: 0 60px;
-  font-size: 22px;
-  letter-spacing: 2px;
+  padding: 40px 60px;
+  // font-size: 22px;
+  // letter-spacing: 2px;
 }
  
 </style>
