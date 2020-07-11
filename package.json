@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "gh-pages -h dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -44,5 +44,5 @@
   "bugs": {
     "url": "https://github.com/OlgaShrir/EvgeniyKoltLaw/issues"
   },
-  "homepage": "https://olgashrir.github.io/EvgeniyKoltLaw/"
+  "homepage": "https://https://olgashrir.github.io/EvgeniyKoltLaw/"
 }
