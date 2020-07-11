@@ -1,6 +1,6 @@
 <template>
  <div class="main-header flex space-between align-items-center">
-  <nav class="main-nav flex align-items-center space-between">
+  <nav class="main-nav flex space-between align-items-center">
     <ul class="flex nav-items">
       <li><a href="#main" class="nav-item">Главная</a></li>
       <li><a href="#about" class="nav-item">О нас</a></li>
@@ -8,15 +8,14 @@
       <li><a href="#contact" class="nav-item">Контакты</a></li>
     </ul>
   
-    <div class="contacts">
-      <a href="#contact" class="nav-item">
+    <div>
+      <a href="#contact" class="contacts">
         <span>054-7504999 </span>
         <i class="fas fa-phone"></i>
       </a>
-      <div class="name">Адвокат Евгений Колт</div>
+      <div>Адвокат Евгений Колт</div>
     </div>
   </nav>
-
 
  </div>
 </template>
@@ -37,44 +36,34 @@ export default {
 <style scoped lang="scss">
 @import "../assets/style/basic-style.scss";
 .main-header{
-  // height: 100px;
-  padding: 30px 60px;
+  padding: 30rem 0;
   background-color: $color1;
-  position: sticky;
-  top: 0;
+  // position: sticky;
+  // top: 0;
   // background-image: url(../assets/hammer.jpg);
 }
 
 .main-nav{
   width: 1100px;
   margin: auto;
-  padding: 0 60px;
   color: $color2;
-}
-
-ul{
-  padding: 0;
+  
 }
 
 li{
   padding-right: 30px;
 }
 
-.nav-item{
+.nav-item, .contacts{
   text-decoration: none;
+  color: $color2;
   // font-size: 22px;
   // letter-spacing: 2px;
-  color: $color2;
 }
 
 .nav-item:hover{
   border-bottom: 1px solid red;
-  padding-bottom: 8px;
-}
-
-.contacts{
-  // font-size: 22px;
-  // letter-spacing: 2px;
+  padding-bottom: 8rem;
 }
 
 

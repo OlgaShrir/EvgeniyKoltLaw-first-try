@@ -5,7 +5,7 @@
       <p>Контакты</p>
       <p>Телефон: 054-7504999</p>
       <p>Эл. Почта: Evgeniyk.law@gmail.com</p>
-      <p>Адрес: ул. Аарбаа 28, Здания «Мигдалей Хаджаж» Северное здание 3-й этаж, Тель Авив</p>
+      <p>Адрес: ул. Аарбаа 28, комплекс «Мигдалей Хаджадж», Северное здание, 3-й этаж, Тель Авив</p>
     </div>
     
     
@@ -32,7 +32,9 @@ export default {
 .contacts{
   width: 1100px;
   margin: auto;
-  padding: 40px 60px;
+  padding: 30rem 0;
+  // padding: 40px 60px;
+  // padding: 40px 0;
   // font-size: 22px;
   // letter-spacing: 2px;
 }

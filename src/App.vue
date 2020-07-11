@@ -35,10 +35,9 @@ export default {
 
 <style>
 .view:not(.full){
-  /* width: 1100px; */
   width: 80vw;
   margin: auto;
-  padding: 0 60px;
+  
 }
 
 </style>
